@@ -1,0 +1,125 @@
+@import "tailwindcss";
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", Meiryo, sans-serif;
+  background: #f3f0e8;
+  color: #2b2b2b;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+header {
+  background: #ffffff !important;
+  border-top: 8px solid #24523b !important;
+  border-bottom: 1px solid #cfc7b8 !important;
+}
+
+header h1 {
+  color: #24523b;
+  letter-spacing: 0.08em;
+}
+
+header p {
+  color: #6f6a60 !important;
+}
+
+nav a {
+  border-left: 1px solid #d8d0c2;
+  padding-left: 18px;
+  font-weight: 600;
+}
+
+nav a:hover {
+  color: #24523b !important;
+  text-decoration: underline;
+}
+
+main section:first-child {
+  background:
+    linear-gradient(rgba(255,255,255,0.85), rgba(255,255,255,0.85)),
+    repeating-linear-gradient(
+      45deg,
+      #efe8d9,
+      #efe8d9 10px,
+      #f8f5ee 10px,
+      #f8f5ee 20px
+    ) !important;
+}
+
+h2 {
+  color: #24523b;
+  font-family: "Yu Mincho", "Hiragino Mincho ProN", serif;
+}
+
+h3 {
+  color: #24523b;
+  border-bottom: 2px solid #24523b;
+  padding-bottom: 0.4rem;
+}
+
+article,
+.rounded-3xl,
+.rounded-2xl {
+  border-radius: 4px !important;
+}
+
+.bg-white {
+  background: #fffdf8 !important;
+}
+
+.bg-zinc-50,
+.bg-zinc-100 {
+  background: #f3f0e8 !important;
+}
+
+.border-zinc-200 {
+  border-color: #cfc7b8 !important;
+}
+
+.shadow-sm,
+.shadow-md {
+  box-shadow: none !important;
+}
+
+button,
+.rounded-full {
+  border-radius: 2px !important;
+}
+
+a.rounded-full {
+  background: #24523b !important;
+  color: white !important;
+}
+
+#news a {
+  background: #fffdf8;
+}
+
+#news a:hover {
+  background: #eee7d8 !important;
+}
+
+#news p:first-child {
+  color: #8b1e1e !important;
+  font-weight: 600;
+}
+
+footer,
+#contact {
+  background: #ffffff;
+}
+
+::selection {
+  background: #24523b;
+  color: white;
+}
